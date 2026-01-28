@@ -42,7 +42,7 @@ search, recommendation, and GenAI systems.
   → https://github.com/DJ92/interview-notes
 
 - **HuggingFace Model: mb-str**  
-  Multi-Behavior Sequential Transformer Recommender
+  Multi-Behavior Sequential Transformer Recommender  
   → https://huggingface.co/Djosh1992/mb-str
 
 ---
