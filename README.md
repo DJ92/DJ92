@@ -41,7 +41,7 @@ search, recommendation, and GenAI systems.
   ML, system design, and behavioral preparation  
   → https://github.com/DJ92/interview-notes
 
-- **HuggingFace Model: mb-str**
+- **HuggingFace Model: mb-str**  
   Multi-Behavior Sequential Transformer Recommender
   → https://huggingface.co/Djosh1992/mb-str
 
@@ -59,9 +59,14 @@ search, recommendation, and GenAI systems.
 ---
 
 ## How I think
-- Prefer **simple systems** with clearly stated tradeoffs
-- Optimize for **observability, debuggability, and iteration speed**
-- Treat ML models as **production software**, not research artifacts
+- Bias for action, with mechanisms to course-correct quickly
+- Treat ML models as production software, not research artifacts
+- Prefer simple, well-scoped designs with explicit trade-offs and failure modes
+- Make decisions with imperfect data, then validate via experiments and metrics
+- Care deeply about end-to-end ownership: data → model → serving → impact
+- Balance model quality, latency, and reliability based on user and business goals
+- Document assumptions, measure outcomes, and learn in public (within teams)
+- Optimize for observability, debuggability, and iteration speed over premature complexity
 
 ---
 
