@@ -1,3 +1,5 @@
+![Banner](assets/banner.jpeg)
+
 # Hi, I’m Dheeraj Joshi (DJ) 👋
 
 Senior Systems & Machine Learning Engineer designing large-scale personalization,
