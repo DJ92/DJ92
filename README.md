@@ -5,9 +5,12 @@
 Senior Systems & Machine Learning Engineer designing large-scale personalization,
 search, recommendation, and GenAI systems.
 
-📍 Boston, US  
-🧠 ML Systems • Recommenders • GenAI / Agentic Workflows
-⚡ Focus: retrieval → ranking → serving → experimentation
+## Background
+- 🇮🇳 Born & raised in Mumbai, India
+- 📍 Currently based in Boston, MA, US
+- 🧠 ML Systems • Recommenders • GenAI / Agentic Workflows
+- ⚡ Focus: retrieval → ranking → serving → experimentation
+- 📧 [joshidheeraj1992@gmail.com]
 
 ---
 
@@ -39,7 +42,7 @@ search, recommendation, and GenAI systems.
   → https://github.com/DJ92/interview-notes
 
 - **HuggingFace Model: mb-str**
-  Matryoshka Binary Embeddings
+  Multi-Behavior Sequential Transformer Recommender
   → https://huggingface.co/Djosh1992/mb-str
 
 ---
