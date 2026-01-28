@@ -15,16 +15,16 @@ search, recommendation, and GenAI systems.
 - 📘 **Blog & Notes:** https://dj92.github.io/interview-notes  
 - 🧠 **ML System Design:** https://github.com/DJ92/ml-system-design  
 - 🤖 **GenAI Systems:** https://github.com/DJ92/genai  
-- 🛠 **Applied ML:** https://github.com/DJ92/applied-ml  
+- 🛠 **Applied ML:** https://github.com/DJ92/applied-ml
 
 ---
 
 ## What I work on
-- Designing and scaling **low-latency ML systems** in production
+- Designing and scaling **low-latency ML serving systems** in production
 - Tuning & optimizing **large-scale ML training pipelines** for production
-- Ranking and retrieval models for large catalogs
+- Ranking and retrieval model architectures for large catalogs
 - Feature stores, embeddings, and vector search infrastructure
-- Bridging **offline metrics ↔ online impact**
+- Bridging **offline metrics ↔ online impact** via scalable experimentation
 - Production GenAI systems (RAG, agents, evaluation, guardrails)
 
 ---
@@ -37,6 +37,10 @@ search, recommendation, and GenAI systems.
 - **Interview Notes & Cheatsheets**  
   ML, system design, and behavioral preparation  
   → https://github.com/DJ92/interview-notes
+
+- **HuggingFace Model: mb-str**
+  Matryoshka Binary Embeddings
+  → https://huggingface.co/Djosh1992/mb-str
 
 ---
 
