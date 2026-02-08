@@ -15,9 +15,10 @@ search, recommendation, and GenAI systems.
 ---
 
 ## Where to start
-- 📘 **Blog & Notes:** https://dj92.github.io/interview-notes  
-- 🧠 **ML System Design:** https://github.com/DJ92/ml-system-design  
-- 🤖 **GenAI Systems:** https://github.com/DJ92/genai  
+- 🔬 **AI Research Portfolio:** https://github.com/DJ92/ai-research-portfolio
+- 📘 **Blog & Notes:** https://dj92.github.io/interview-notes
+- 🧠 **ML System Design:** https://github.com/DJ92/ml-system-design
+- 🤖 **GenAI Systems:** https://github.com/DJ92/genai
 - 🛠 **Applied ML:** https://github.com/DJ92/applied-ml
 
 ---
@@ -33,16 +34,23 @@ search, recommendation, and GenAI systems.
 ---
 
 ## Featured Projects
-- **ML System Design Notes**  
-  End-to-end designs for recommendation and search systems  
+
+### AI Research & Evaluation
+- **LLM Evaluation Framework**
+  Systematic evaluation of LLM outputs using automated metrics + LLM-as-judge
+  → https://github.com/DJ92/ai-research-portfolio/tree/main/01-llm-evaluation
+
+- **Blog: Evaluating LLM Outputs**
+  Practical guide on LLM evaluation beyond BLEU scores
+  → https://dj92.github.io/interview-notes/notes/llm-evaluation/
+
+### Production ML Systems
+- **ML System Design Notes**
+  End-to-end designs for recommendation and search systems
   → https://github.com/DJ92/ml-system-design
 
-- **Interview Notes & Cheatsheets**  
-  ML, system design, and behavioral preparation  
-  → https://github.com/DJ92/interview-notes
-
-- **HuggingFace Model: mb-str**  
-  Multi-Behavior Sequential Transformer Recommender  
+- **HuggingFace Model: mb-str**
+  Multi-Behavior Sequential Transformer Recommender
   → https://huggingface.co/Djosh1992/mb-str
 
 ---
