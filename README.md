@@ -15,8 +15,9 @@ search, recommendation, and GenAI systems.
 ---
 
 ## Where to start
-- 🔬 **AI Research Portfolio:** https://github.com/DJ92/ai-research-portfolio
-- 📘 **Blog & Notes:** https://dj92.github.io/interview-notes
+- 🔬 **AI Research Portfolio (8 projects):** https://github.com/DJ92/ai-research-portfolio
+  - Constitutional AI, CoT Faithfulness, Safety, Evaluation, RAG, Interpretability
+- 📘 **Blog & Technical Writing:** https://dj92.github.io/interview-notes
 - 🧠 **ML System Design:** https://github.com/DJ92/ml-system-design
 - 🤖 **GenAI Systems:** https://github.com/DJ92/genai
 - 🛠 **Applied ML:** https://github.com/DJ92/applied-ml
@@ -24,27 +25,54 @@ search, recommendation, and GenAI systems.
 ---
 
 ## What I work on
-- Designing and scaling **low-latency ML serving systems** in production
-- Tuning & optimizing **large-scale ML training pipelines** for production
-- Ranking and retrieval model architectures for large catalogs
-- Feature stores, embeddings, and vector search infrastructure
-- Bridging **offline metrics ↔ online impact** via scalable experimentation
-- Production GenAI systems (RAG, agents, evaluation, guardrails)
+- **AI Safety & Alignment:** Constitutional AI, preference learning, guardrails, red-teaming
+- **LLM Evaluation:** Automated metrics, LLM-as-judge, faithfulness analysis, interpretability
+- **Production GenAI:** RAG systems, agentic workflows, tool use, prompt engineering
+- **ML Serving Systems:** Low-latency inference, ranking, retrieval at scale
+- **Experimentation:** Bridging offline metrics ↔ online impact via A/B testing
+- **ML Infrastructure:** Feature stores, embeddings, vector search, training pipelines
 
 ---
 
 ## Featured Projects
 
-### AI Research & Evaluation
-- **LLM Evaluation Framework**
-  Systematic evaluation of LLM outputs using automated metrics + LLM-as-judge
-  → https://github.com/DJ92/ai-research-portfolio/tree/main/01-llm-evaluation
+### 🎯 AI Research Portfolio (8 Projects)
+Demonstrating AI safety, alignment, and evaluation expertise
+→ **https://github.com/DJ92/ai-research-portfolio**
 
-- **Blog: Evaluating LLM Outputs**
-  Practical guide on LLM evaluation beyond BLEU scores
+**Alignment & Safety Research:**
+- **Constitutional AI & Preference Learning** - Anthropic's critique-revision loop, RLHF simulation
+  - 92% test coverage, 112% improvement in harmlessness, 82% preference accuracy
+
+- **CoT Faithfulness Analysis** - Testing if reasoning actually drives answers via counterfactual interventions
+  - 91% test coverage, 94% precision detecting unfaithful reasoning, 67% faithful rate
+
+- **Agent Safety & Guardrails** - Production safety mechanisms, prompt injection detection
+  - 94% precision, 88% recall on injection detection, 73% attack reduction
+
+**Evaluation & Interpretability:**
+- **LLM Evaluation Framework** - Automated metrics + LLM-as-judge, cost tracking
+  - 87% coverage, 0.82 judge-human correlation
+
+- **Model Interpretability Toolkit** - Attention analysis, logit attribution, perplexity metrics
+  - r = -0.78 PPL-accuracy correlation, 82% attribution precision
+
+**Production Systems:**
+- **Production RAG System** - Chunking strategies, retrieval metrics, hybrid search
+  - 85% MRR@10 with semantic chunking
+
+- **Tool Use & Function Calling** - ReAct agents, schema validation
+  - 94% tool selection accuracy
+
+- **Prompt Engineering Lab** - Systematic evaluation of techniques
+  - Few-shot optimal: 3-5 examples (91% accuracy)
+
+### 📘 Technical Writing
+- **Blog: LLM Evaluation**
+  Beyond BLEU scores - automated metrics, LLM-as-judge, production patterns
   → https://dj92.github.io/interview-notes/notes/llm-evaluation/
 
-### Production ML Systems
+### 🛠 Production ML Systems
 - **ML System Design Notes**
   End-to-end designs for recommendation and search systems
   → https://github.com/DJ92/ml-system-design
