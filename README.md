@@ -19,9 +19,13 @@ search, recommendation, and GenAI systems.
   - Applied research: Constitutional AI, Safety, Evaluation, RAG, Interpretability
   - Foundational: Transformers, Pre-training, RLHF/DPO, LoRA & Quantization
 - 📘 **Blog & Technical Writing:** https://dj92.github.io/interview-notes
+  - 4 new deep dives: Transformer Architecture, Pre-training, RLHF vs DPO, PEFT
 - 🧠 **ML System Design:** https://github.com/DJ92/ml-system-design
+  - News Feed Ranking system (complete design), 7 more outlined
 - 🤖 **GenAI Systems:** https://github.com/DJ92/genai
+  - 8 production patterns: RAG, Agents, Guardrails, Cost Optimization
 - 🛠 **Applied ML:** https://github.com/DJ92/applied-ml
+  - 10 projects: Classical ML, RecSys, Time Series, NLP
 
 ---
 
@@ -82,19 +86,33 @@ Demonstrating **both applied AI research and deep foundational knowledge**
 - **Prompt Engineering Lab** - Systematic evaluation of techniques
   - Few-shot optimal: 3-5 examples (91% accuracy)
 
-### 📘 Technical Writing
-- **Blog: LLM Evaluation**
-  Beyond BLEU scores - automated metrics, LLM-as-judge, production patterns
-  → https://dj92.github.io/interview-notes/notes/llm-evaluation/
+### 📘 Technical Writing & Blog
+**4 New Deep Dives on LLM Foundations** → https://dj92.github.io/interview-notes
 
-### 🛠 Production ML Systems
-- **ML System Design Notes**
-  End-to-end designs for recommendation and search systems
-  → https://github.com/DJ92/ml-system-design
+- **Transformer Architecture** - Self-attention mechanics, positional encodings (sinusoidal/RoPE), O(n²) complexity analysis
+- **LLM Pre-training** - CLM vs MLM, 80/10/10 masking, warmup+cosine decay, Chinchilla scaling laws
+- **Alignment: RLHF vs DPO** - Reward modeling, PPO, Direct Preference Optimization, Constitutional AI
+- **Parameter-Efficient Fine-Tuning** - LoRA (99% param reduction), 4-bit/8-bit quantization, QLoRA
+- **LLM Evaluation** - Beyond BLEU scores, automated metrics, LLM-as-judge patterns
 
-- **HuggingFace Model: mb-str**
-  Multi-Behavior Sequential Transformer Recommender
-  → https://huggingface.co/Djosh1992/mb-str
+### 🧠 ML System Design
+**Complete Architecture Designs** → https://github.com/DJ92/ml-system-design
+
+- **News Feed Ranking** (COMPLETE) - Two-stage retrieval+ranking, multi-task DNN, <100ms P99, 100M+ DAU scale
+- **8 System Designs Outlined** - Video recommendations, search ranking, RTB ads, fraud detection, email ranking, explore/exploit, embeddings
+
+### 🤖 GenAI Applications
+**Production Patterns** → https://github.com/DJ92/genai
+
+- **8 Project Implementations** - Production RAG (hybrid search, reranking), agentic code review (ReAct pattern), multi-agent support, prompt optimization, guardrails, semantic code search, document intelligence, cost optimizer (65% reduction)
+
+### 🛠 Applied ML Research
+**Classical to Modern Techniques** → https://github.com/DJ92/applied-ml
+
+- **10 Projects** - Logistic regression from scratch, decision trees/random forests, gradient boosting, collaborative filtering, neural CF, sequential recommendations (GRU4Rec), ARIMA/LSTM time series, text classification (BERT), NER (BiLSTM-CRF)
+
+### 🤗 HuggingFace Model
+- **mb-str** - Multi-Behavior Sequential Transformer Recommender → https://huggingface.co/Djosh1992/mb-str
 
 ---
 
