@@ -267,8 +267,16 @@ Quantitative overview of work across all repositories:
 
 ---
 
-<details>
-  <summary>GitHub Stats</summary>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api?username=DJ92&show_icons=true" />
-</details>
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DJ92&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DJ92&theme=dark&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=1f6feb&currStreakLabel=c9d1d9" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DJ92&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
+</p>
