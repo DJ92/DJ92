@@ -15,8 +15,9 @@ search, recommendation, and GenAI systems.
 ---
 
 ## Where to start
-- 🔬 **AI Research Portfolio (8 projects):** https://github.com/DJ92/ai-research-portfolio
-  - Constitutional AI, CoT Faithfulness, Safety, Evaluation, RAG, Interpretability
+- 🔬 **AI Research Portfolio (12 projects):** https://github.com/DJ92/ai-research-portfolio
+  - Applied research: Constitutional AI, Safety, Evaluation, RAG, Interpretability
+  - Foundational: Transformers, Pre-training, RLHF/DPO, LoRA & Quantization
 - 📘 **Blog & Technical Writing:** https://dj92.github.io/interview-notes
 - 🧠 **ML System Design:** https://github.com/DJ92/ml-system-design
 - 🤖 **GenAI Systems:** https://github.com/DJ92/genai
@@ -25,7 +26,8 @@ search, recommendation, and GenAI systems.
 ---
 
 ## What I work on
-- **AI Safety & Alignment:** Constitutional AI, preference learning, guardrails, red-teaming
+- **AI Safety & Alignment:** Constitutional AI, preference learning (RLHF/DPO), guardrails, red-teaming
+- **Foundational ML:** Transformer architectures, pre-training techniques, parameter-efficient fine-tuning
 - **LLM Evaluation:** Automated metrics, LLM-as-judge, faithfulness analysis, interpretability
 - **Production GenAI:** RAG systems, agentic workflows, tool use, prompt engineering
 - **ML Serving Systems:** Low-latency inference, ranking, retrieval at scale
@@ -36,28 +38,41 @@ search, recommendation, and GenAI systems.
 
 ## Featured Projects
 
-### 🎯 AI Research Portfolio (8 Projects)
-Demonstrating AI safety, alignment, and evaluation expertise
+### 🎯 AI Research Portfolio (12 Projects)
+Demonstrating **both applied AI research and deep foundational knowledge**
 → **https://github.com/DJ92/ai-research-portfolio**
 
-**Alignment & Safety Research:**
+**Foundational Knowledge (Projects 9-12):**
+- **Transformer Architecture from Scratch** - Self-attention, multi-head attention, positional encodings (sinusoidal, learned, RoPE)
+  - 38 tests, 74% coverage, full GPT implementation with generation
+
+- **Pre-training Techniques** - Causal Language Modeling (CLM) & Masked Language Modeling (MLM)
+  - 11 tests, 87% coverage, 80/10/10 masking strategy
+
+- **Post-Training Methods** - Supervised Fine-Tuning, RLHF (reward model + PPO), DPO
+  - 12 tests, 86% coverage, Bradley-Terry preference learning
+
+- **Parameter-Efficient Fine-Tuning** - LoRA implementation, 4-bit/8-bit quantization
+  - 8 tests, 81% coverage, 99% parameter reduction, 4-8× compression
+
+**Alignment & Safety Research (Projects 5-7):**
 - **Constitutional AI & Preference Learning** - Anthropic's critique-revision loop, RLHF simulation
   - 92% test coverage, 112% improvement in harmlessness, 82% preference accuracy
 
 - **CoT Faithfulness Analysis** - Testing if reasoning actually drives answers via counterfactual interventions
-  - 91% test coverage, 94% precision detecting unfaithful reasoning, 67% faithful rate
+  - 91% test coverage, 94% precision detecting unfaithful reasoning
 
 - **Agent Safety & Guardrails** - Production safety mechanisms, prompt injection detection
   - 94% precision, 88% recall on injection detection, 73% attack reduction
 
-**Evaluation & Interpretability:**
+**Evaluation & Interpretability (Projects 1, 8):**
 - **LLM Evaluation Framework** - Automated metrics + LLM-as-judge, cost tracking
   - 87% coverage, 0.82 judge-human correlation
 
 - **Model Interpretability Toolkit** - Attention analysis, logit attribution, perplexity metrics
   - r = -0.78 PPL-accuracy correlation, 82% attribution precision
 
-**Production Systems:**
+**Production Systems (Projects 2-4):**
 - **Production RAG System** - Chunking strategies, retrieval metrics, hybrid search
   - 85% MRR@10 with semantic chunking
 
