@@ -1,4 +1,4 @@
-![Banner](assets/banner.gif)
+![Banner](assets/banner.jpg)
 
 # Dheeraj Joshi
 
