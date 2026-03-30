@@ -1,282 +1,209 @@
 ![Banner](assets/banner.jpeg)
 
-# Hi, I’m Dheeraj Joshi (DJ) 👋
+# Dheeraj Joshi
 
-Senior Systems & Machine Learning Engineer designing large-scale personalization,
-search, recommendation, and GenAI systems.
+Senior systems and machine learning engineer building retrieval, ranking, recommendation, and GenAI systems.
 
-## Background
-- 🇮🇳 Born & raised in Mumbai, India
-- 📍 Currently based in Boston, MA, US
-- 🧠 ML Systems • Recommenders • GenAI / Agentic Workflows
-- ⚡ Focus: retrieval → ranking → serving → experimentation
-- 📧 [joshidheeraj1992@gmail.com]
+I focus on staff-level problems where the challenge is not only model quality, but making the full system measurable, debuggable, safe, and fast enough to ship. My work sits at the boundary of problem framing, offline evaluation, serving and observability, experimentation, and the trade-offs between relevance, latency, cost, and reliability.
 
----
+- Based in Boston, MA
+- Focus: search, recommendation, retrieval, GenAI evaluation, agent reliability, and experimentation
+- Email: [joshidheeraj1992@gmail.com](mailto:joshidheeraj1992@gmail.com)
 
-## Where to start
-- 🔬 **AI Research Portfolio (12 projects):** https://github.com/DJ92/ai-research-portfolio
-  - Applied research: Constitutional AI, Safety, Evaluation, RAG, Interpretability
-  - Foundational: Transformers, Pre-training, RLHF/DPO, LoRA & Quantization
-- 📘 **Blog & Technical Writing:** https://dj92.github.io/interview-notes
-  - 5 deep dives: Transformer Architecture, Pre-training, RLHF vs DPO, PEFT, Long Context LLMs
-- 🧠 **ML System Design:** https://github.com/DJ92/ml-system-design
-  - News Feed Ranking system (complete design), 7 more outlined
-- 🤖 **GenAI Systems:** https://github.com/DJ92/genai
-  - 9 production patterns: RAG, Agents, Guardrails, Multimodal RAG, Cost Optimization
-- 🛠 **Applied ML:** https://github.com/DJ92/applied-ml
-  - 11 projects: Classical ML, RecSys, Time Series, NLP, RL Fundamentals
+## Best Evidence in 2 Minutes
 
----
+- [ML System Design](https://github.com/DJ92/ml-system-design)
+  Staff AI/ML systems proof: ranking, retrieval, recommendation, latency budgets, experimentation, and production trade-offs.
+- [AI Research Portfolio](https://github.com/DJ92/ai-research-portfolio)
+  GenAI reliability proof: evaluation, RAG, tool use, safety, interpretability, and transformer foundations across 12 projects.
+- [Technical Writing](https://dj92.github.io/interview-notes)
+  Communication proof: clear writing on evaluation methods, transformer foundations, and production AI trade-offs.
 
-## What I work on
-- **AI Safety & Alignment:** Constitutional AI, preference learning (RLHF/DPO), guardrails, red-teaming
-- **Foundational ML:** Transformer architectures, pre-training techniques, parameter-efficient fine-tuning
-- **LLM Evaluation:** Automated metrics, LLM-as-judge, faithfulness analysis, interpretability
-- **Production GenAI:** RAG systems, agentic workflows, tool use, prompt engineering
-- **ML Serving Systems:** Low-latency inference, ranking, retrieval at scale
-- **Experimentation:** Bridging offline metrics ↔ online impact via A/B testing
-- **ML Infrastructure:** Feature stores, embeddings, vector search, training pipelines
+## Start Here
 
----
+- [AI Research Portfolio](https://github.com/DJ92/ai-research-portfolio)
+  12 projects covering evaluation, RAG, tool use, safety, interpretability, and transformer foundations.
+- [ML System Design](https://github.com/DJ92/ml-system-design)
+  Production-grade designs for ranking, retrieval, recommendation, and experimentation.
+- [GenAI Applications](https://github.com/DJ92/genai)
+  Practical systems for RAG, agents, guardrails, cost optimization, and multimodal retrieval.
+- [Applied ML](https://github.com/DJ92/applied-ml)
+  Broader ML depth across collaborative filtering, neural recommenders, time series, NLP, and classical ML.
 
-## Featured Projects
+## What I Bring
 
-### 🎯 AI Research Portfolio (12 Projects)
-Demonstrating **both applied AI research and deep foundational knowledge**
-→ **https://github.com/DJ92/ai-research-portfolio**
+- End-to-end ownership across retrieval, ranking, serving, observability, and experimentation.
+- Evaluation-first AI engineering with baselines, failure analysis, human review loops, and explicit cost and latency trade-offs.
+- Ability to turn research ideas into deployable systems with strong interfaces and measurable outcomes.
+- Clear technical writing that makes decisions, assumptions, and trade-offs easy to review.
 
-**Foundational Knowledge (Projects 9-12):**
-- **Transformer Architecture from Scratch** - Self-attention, multi-head attention, positional encodings (sinusoidal, learned, RoPE)
-  - 38 tests, 74% coverage, full GPT implementation with generation
+## Selected Work
 
-- **Pre-training Techniques** - Causal Language Modeling (CLM) & Masked Language Modeling (MLM)
-  - 11 tests, 87% coverage, 80/10/10 masking strategy
+- [News Feed Ranking System Design](https://github.com/DJ92/ml-system-design/blob/main/designs/01-newsfeed-ranking.md)
+  Two-stage retrieval plus ranking at 100M+ DAU scale with sub-100ms P99 goals, feature pipelines, online experimentation, and multi-objective trade-offs.
+- [LLM Evaluation Framework](https://github.com/DJ92/ai-research-portfolio/tree/main/01-llm-evaluation)
+  Automated metrics, LLM-as-judge, human evaluation workflows, and cost tracking. Includes 87% test coverage and 0.82 judge-human correlation.
+- [Agent Safety & Guardrails](https://github.com/DJ92/ai-research-portfolio/tree/main/05-agent-safety)
+  Prompt injection detection, approval workflows, defense-in-depth, and red-team benchmarks. Injection detection reaches 94% precision and 88% recall.
+- [Production RAG System](https://github.com/DJ92/ai-research-portfolio/tree/main/03-rag-system)
+  Chunking comparisons, retrieval metrics, embedding benchmarks, and hybrid search. Best semantic chunking setup reaches 85% MRR@10.
+- [MB-STR on Hugging Face](https://huggingface.co/Djosh1992/mb-str)
+  Multi-behavior sequential transformer recommender connecting long-term user behavior modeling with modern recommender system practice.
 
-- **Post-Training Methods** - Supervised Fine-Tuning, RLHF (reward model + PPO), DPO
-  - 12 tests, 86% coverage, Bradley-Terry preference learning
+## How To Read This Profile
 
-- **Parameter-Efficient Fine-Tuning** - LoRA implementation, 4-bit/8-bit quantization
-  - 8 tests, 81% coverage, 99% parameter reduction, 4-8× compression
+- Recruiter scan in 30 seconds
+  Open ML System Design for systems scope, AI Research Portfolio for GenAI depth, and Technical Writing for communication quality.
+- Hiring manager scan in 2 minutes
+  Look at News Feed Ranking, LLM Evaluation Framework, Agent Safety and Guardrails, and Production RAG for architecture, trade-offs, and metrics.
+- Interview prep
+  Use each flagship project to practice this sequence: problem, design, trade-offs, metrics, failure modes, and what I would improve in production.
 
-**Alignment & Safety Research (Projects 5-7):**
-- **Constitutional AI & Preference Learning** - Anthropic's critique-revision loop, RLHF simulation
-  - 92% test coverage, 112% improvement in harmlessness, 82% preference accuracy
+## Interview Paths
 
-- **CoT Faithfulness Analysis** - Testing if reasoning actually drives answers via counterfactual interventions
-  - 91% test coverage, 94% precision detecting unfaithful reasoning
+### Staff AI/ML Systems
 
-- **Agent Safety & Guardrails** - Production safety mechanisms, prompt injection detection
-  - 94% precision, 88% recall on injection detection, 73% attack reduction
+- [News Feed Ranking System Design](https://github.com/DJ92/ml-system-design/blob/main/designs/01-newsfeed-ranking.md)
+  Problem: rank large candidate sets for personalized feeds under relevance, freshness, and latency constraints.
+  Design: two-stage retrieval plus ranking, feature pipelines, serving, feedback loops, and A/B testing.
+  Trade-offs: freshness vs relevance, model complexity vs serving cost, and short-term engagement vs long-term user experience.
+  Metrics to discuss: candidate recall, ranking quality, calibration, latency budgets, and experiment outcomes.
+  What I learned: staff-level design depends as much on interfaces, observability, and iteration loops as on model choice.
+- [LLM Evaluation Framework](https://github.com/DJ92/ai-research-portfolio/tree/main/01-llm-evaluation)
+  Problem: evaluate LLM quality across tasks without relying on anecdotes.
+  Design: automated metrics, LLM-as-judge, human review workflows, unified clients, and cost tracking.
+  Trade-offs: evaluator quality vs evaluation cost, reuse vs task specificity, and judge consistency vs model bias.
+  Metrics to discuss: 87% test coverage and 0.82 judge-human correlation.
+  What I learned: reliable GenAI systems start with measurement scaffolding, not prompt iteration alone.
 
-**Evaluation & Interpretability (Projects 1, 8):**
-- **LLM Evaluation Framework** - Automated metrics + LLM-as-judge, cost tracking
-  - 87% coverage, 0.82 judge-human correlation
+### GenAI Evaluation and Reliability
 
-- **Model Interpretability Toolkit** - Attention analysis, logit attribution, perplexity metrics
-  - r = -0.78 PPL-accuracy correlation, 82% attribution precision
+- [Agent Safety & Guardrails](https://github.com/DJ92/ai-research-portfolio/tree/main/05-agent-safety)
+  Problem: reduce prompt injection and unsafe behavior in agentic systems.
+  Design: layered input checks, approval workflows, behavioral constraints, and red-team testing.
+  Trade-offs: safety coverage vs user friction, higher recall vs false positives, and protection vs added latency.
+  Metrics to discuss: 94% precision, 88% recall, and attack reduction from defense-in-depth.
+  What I learned: safety is a systems problem spanning policy, interfaces, monitoring, and fallback paths.
+- [Production RAG System](https://github.com/DJ92/ai-research-portfolio/tree/main/03-rag-system)
+  Problem: improve answer quality with retrieval under context-window, latency, and cost constraints.
+  Design: chunking experiments, embedding comparisons, hybrid search, reranking, and retrieval metrics.
+  Trade-offs: recall vs latency, chunk granularity vs context quality, and semantic search vs keyword robustness.
+  Metrics to discuss: 85% MRR@10 and gains from hybrid retrieval.
+  What I learned: many RAG failures are retrieval and evaluation failures, not generation failures.
 
-**Production Systems (Projects 2-4):**
-- **Production RAG System** - Chunking strategies, retrieval metrics, hybrid search
-  - 85% MRR@10 with semantic chunking
+### Search, Retrieval, and Recommendation
 
-- **Tool Use & Function Calling** - ReAct agents, schema validation
-  - 94% tool selection accuracy
+- [MB-STR on Hugging Face](https://huggingface.co/Djosh1992/mb-str)
+  Problem: model multi-behavior sequential user interactions for recommendation.
+  Design: transformer-based sequence modeling over multiple behavior signals instead of treating all events as equivalent.
+  Trade-offs: richer behavior modeling vs higher complexity, sequence length vs compute cost, and offline gains vs serving practicality.
+  What I learned: recommender quality depends heavily on representing behavior semantics, not just user-item history volume.
+- [Applied ML](https://github.com/DJ92/applied-ml)
+  Problem: build intuition from collaborative filtering through neural and sequential recommenders.
+  Design: matrix factorization, neural collaborative filtering, and GRU-based sequence models.
+  Trade-offs: simple baselines vs richer architectures, offline gains vs inference cost, and static preference vs session intent.
+  What I learned: strong staff-level judgment starts with knowing which baseline to beat and why.
 
-- **Prompt Engineering Lab** - Systematic evaluation of techniques
-  - Few-shot optimal: 3-5 examples (91% accuracy)
+## Practice Prompts
 
-### 📘 Technical Writing & Blog
-**5 Deep Dives on LLM Foundations & Production** → https://dj92.github.io/interview-notes
+- How would I debug an online metric regression if offline model metrics stayed flat?
+- Which metric mattered most in each project, and why?
+- What would I log, alert on, or monitor after launch?
+- Where would this system fail first in production?
+- What is the simplest version I would ship before scaling complexity?
 
-- **Transformer Architecture** - Self-attention mechanics, positional encodings (sinusoidal/RoPE), O(n²) complexity analysis
-- **LLM Pre-training** - CLM vs MLM, 80/10/10 masking, warmup+cosine decay, Chinchilla scaling laws
-- **Alignment: RLHF vs DPO** - Reward modeling, PPO, Direct Preference Optimization, Constitutional AI
-- **Parameter-Efficient Fine-Tuning** - LoRA (99% param reduction), 4-bit/8-bit quantization, QLoRA
-- **Long Context LLMs** - RAG vs Long Context vs Hybrid, "lost in the middle" problem, cost-quality tradeoffs
+## Repo README Template
 
-### 🧠 ML System Design
-**Complete Architecture Designs** → https://github.com/DJ92/ml-system-design
-
-- **News Feed Ranking** (COMPLETE) - Two-stage retrieval+ranking, multi-task DNN, <100ms P99, 100M+ DAU scale
-- **8 System Designs Outlined** - Video recommendations, search ranking, RTB ads, fraud detection, email ranking, explore/exploit, embeddings
-
-### 🤖 GenAI Applications
-**Production Patterns** → https://github.com/DJ92/genai
-
-- **9 Project Implementations** - Production RAG (hybrid search, reranking), agentic code review (ReAct pattern), multi-agent support, prompt optimization, guardrails, semantic code search, document intelligence, cost optimizer (65% reduction), multimodal RAG (88% accuracy on text+image)
-
-### 🛠 Applied ML Research
-**Classical to Modern Techniques** → https://github.com/DJ92/applied-ml
-
-- **11 Projects** - Logistic regression from scratch, decision trees/random forests, gradient boosting, collaborative filtering, neural CF, sequential recommendations (GRU4Rec), ARIMA/LSTM time series, text classification (BERT), NER (BiLSTM-CRF), RL fundamentals (Q-learning → PPO, foundation for RLHF)
-
-### 🤗 HuggingFace Model
-- **mb-str** - Multi-Behavior Sequential Transformer Recommender → https://huggingface.co/Djosh1992/mb-str
-
----
-
-## Tech Stack
-![Python](https://img.shields.io/badge/Python-000?logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-000?logo=pytorch&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-000?logo=googlecloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-000?logo=amazonaws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-000?logo=kubernetes&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-000?logo=apachekafka&logoColor=white)
-![Postgres](https://img.shields.io/badge/Postgres-000?logo=postgresql&logoColor=white)
-
----
-
-## How I think
-- Bias for action, with mechanisms to course-correct quickly
-- Treat ML models as production software, not research artifacts
-- Prefer simple, well-scoped designs with explicit trade-offs and failure modes
-- Make decisions with imperfect data, then validate via experiments and metrics
-- Care deeply about end-to-end ownership: data → model → serving → impact
-- Balance model quality, latency, and reliability based on user and business goals
-- Document assumptions, measure outcomes, and learn in public (within teams)
-- Optimize for observability, debuggability, and iteration speed over premature complexity
-
----
+- [Flagship Repo README Template](./FLAGSHIP_REPO_README_TEMPLATE.md)
+  A copy-paste template for turning project repos into stronger hiring and interview artifacts.
 
 ## Portfolio Architecture
 
 My work follows a structured progression from foundations to production systems:
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────────┐
-│                    FOUNDATIONS (12 projects)                     │
-│  Transformer Architecture • Pre-training • RLHF/DPO • LoRA      │
-│              ai-research-portfolio/09-12                         │
+│                    FOUNDATIONS (12 projects)                   │
+│  Transformer Architecture • Pre-training • RLHF/DPO • LoRA    │
+│              ai-research-portfolio/09-12                      │
 └────────────────────────┬────────────────────────────────────────┘
                          │
                          ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│              RESEARCH & SAFETY (8 projects)                      │
-│  Constitutional AI • CoT Faithfulness • Agent Safety             │
-│  LLM Evaluation • Interpretability • RAG • Tool Use              │
-│              ai-research-portfolio/01-08                         │
+│              RESEARCH & SAFETY (8 projects)                   │
+│  Constitutional AI • CoT Faithfulness • Agent Safety          │
+│  LLM Evaluation • Interpretability • RAG • Tool Use           │
+│              ai-research-portfolio/01-08                      │
 └────────────────────────┬────────────────────────────────────────┘
                          │
                          ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│           PRODUCTION GenAI (9 projects + 5 blog posts)           │
-│  Production RAG • Agents • Guardrails • Multimodal RAG           │
-│  Cost Optimization • Long Context Strategies                     │
-│         genai/ + interview-notes/                                │
+│           PRODUCTION GenAI (9 projects + 5 blog posts)        │
+│  Production RAG • Agents • Guardrails • Multimodal RAG        │
+│  Cost Optimization • Long Context Strategies                  │
+│         genai/ + interview-notes/                             │
 └────────────────────────┬────────────────────────────────────────┘
                          │
                          ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│          ML SYSTEMS (1 complete + 7 designs, 11 projects)        │
-│  News Feed Ranking • RecSys • Time Series • Classical ML • RL    │
-│         ml-system-design/ + applied-ml/                          │
+│          ML SYSTEMS (1 complete + 7 designs, 11 projects)     │
+│  News Feed Ranking • RecSys • Time Series • Classical ML • RL │
+│         ml-system-design/ + applied-ml/                       │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-**Flow**: Foundation → Research → Production → Systems demonstrates both depth (can build transformers from scratch) and breadth (can deploy at scale).
-
----
+Flow: foundation to research to production to systems demonstrates both depth and breadth.
 
 ## Papers Implemented
 
 Research papers implemented across the portfolio:
 
-### Transformers & Attention
-- ✅ [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - Transformer architecture (Project 09)
-- ✅ [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864) - RoPE implementation (Project 09)
+### Transformers and Attention
 
-### Pre-training & Fine-tuning
-- ✅ [BERT: Pre-training of Deep Bidirectional Transformers](https://arxiv.org/abs/1810.04805) - MLM objective (Project 10)
-- ✅ [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) - GPT-2 CLM (Project 10)
-- ✅ [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) - Chinchilla scaling laws (Project 10)
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - Transformer architecture
+- [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864) - RoPE implementation
 
-### Alignment & Safety
-- ✅ [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) - InstructGPT/RLHF (Project 11)
-- ✅ [Direct Preference Optimization](https://arxiv.org/abs/2305.18290) - DPO implementation (Project 11)
-- ✅ [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) - CAI critique-revision (Project 06)
-- ✅ [Measuring Faithfulness in Chain-of-Thought Reasoning](https://arxiv.org/abs/2307.13702) - CoT faithfulness (Project 07)
+### Pre-training and Fine-tuning
+
+- [BERT: Pre-training of Deep Bidirectional Transformers](https://arxiv.org/abs/1810.04805) - MLM objective
+- [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) - GPT-2 style CLM
+- [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) - Chinchilla scaling laws
+
+### Alignment and Safety
+
+- [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) - RLHF implementation ideas
+- [Direct Preference Optimization](https://arxiv.org/abs/2305.18290) - DPO implementation
+- [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) - critique-revision loop
+- [Measuring Faithfulness in Chain-of-Thought Reasoning](https://arxiv.org/abs/2307.13702) - CoT faithfulness analysis
 
 ### Parameter-Efficient Fine-tuning
-- ✅ [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) - LoRA implementation (Project 12)
-- ✅ [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) - 4-bit quantization (Project 12)
 
-### Retrieval & RAG
-- ✅ [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) - RAG system (Project 03, GenAI Project 01)
-- ✅ [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) - Long context analysis (Blog post)
+- [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) - LoRA implementation
+- [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) - 4-bit quantization
 
-### Agents & Tool Use
-- ✅ [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) - ReAct agents (Project 04, GenAI Project 02)
-- ✅ [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) - CoT prompting (Project 05)
+### Retrieval, RAG, and Agents
 
-### Recommendation Systems
-- ✅ [Neural Collaborative Filtering](https://arxiv.org/abs/1708.05031) - NCF implementation (Applied ML Project 05)
-- ✅ [Session-based Recommendations with Recurrent Neural Networks](https://arxiv.org/abs/1511.06939) - GRU4Rec (Applied ML Project 06)
+- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) - RAG system
+- [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) - long-context analysis
+- [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) - ReAct agents
+- [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) - CoT prompting
 
-### Reinforcement Learning
-- ✅ [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347) - PPO implementation (Applied ML Project 11)
-- ✅ [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602) - DQN (Applied ML Project 11)
+### Recommendation Systems and RL
 
-**Total: 22 papers** spanning transformers, alignment, efficiency, RAG, agents, and RL.
+- [Neural Collaborative Filtering](https://arxiv.org/abs/1708.05031) - NCF implementation
+- [Session-based Recommendations with Recurrent Neural Networks](https://arxiv.org/abs/1511.06939) - GRU4Rec implementation
+- [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347) - PPO implementation
+- [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602) - DQN implementation
 
----
+Total: 22 papers spanning transformers, alignment, efficiency, RAG, agents, recommendation, and RL.
 
 ## Portfolio Metrics
 
-Quantitative overview of work across all repositories:
+Quantitative overview of work across repositories:
 
-### Code & Documentation
-- **Lines of Code**: 6,500+ (excluding tests and configs)
-- **Test Coverage**: 85%+ average across AI research projects
-- **Documentation**: 12,000+ lines across READMEs, blog posts, system designs
-- **Total Projects**: 33 (12 AI research + 9 GenAI + 11 Applied ML + 1 complete system design)
-
-### Research Quality
-- **Papers Implemented**: 22 foundational papers
-- **Quantitative Metrics**: Every project includes measurable results (accuracy, latency, cost, coverage)
-- **Reproducibility**: Fixed seeds, documented hyperparameters, requirements files
-- **Test Coverage by Project**:
-  - Constitutional AI: 92%
-  - CoT Faithfulness: 91%
-  - LLM Evaluation: 87%
-  - Pre-training: 87%
-  - Post-training: 86%
-  - PEFT: 81%
-  - Transformer Architecture: 74%
-
-### Production Readiness
-- **System Designs**: 1 complete (News Feed Ranking), 7 outlined
-- **Latency Optimizations**: <100ms P99 (News Feed), <500ms P99 (RAG), <50ms (Guardrails)
-- **Cost Optimizations**: 65% reduction (GenAI cost optimizer), 100× cheaper (RAG vs Long Context)
-- **Scale Targets**: 100M+ DAU (News Feed), 10M ratings (RecSys), 1M tokens (Long Context)
-
-### Knowledge Breadth
-- **AI Safety**: 3 projects (Constitutional AI, CoT Faithfulness, Agent Safety)
-- **Foundational ML**: 4 projects (Transformers, Pre-training, RLHF/DPO, LoRA)
-- **Production GenAI**: 9 projects (RAG, Agents, Guardrails, Multimodal, etc.)
-- **Classical ML**: 11 projects (Logistic Regression → RL Fundamentals)
-- **Technical Writing**: 5 deep-dive blog posts (2,000+ lines)
-
-### Languages & Frameworks
-- **Python**: Primary (PyTorch, Transformers, LangChain, scikit-learn)
-- **Infrastructure**: Docker, Kubernetes, GCP, AWS
-- **Monitoring**: MLflow, wandb, custom evaluation frameworks
-- **Serving**: FastAPI, TorchServe, model optimization
-
-**Portfolio demonstrates**: Foundational depth (can build transformers) + Applied research (Constitutional AI, CoT) + Production systems (RAG, ranking, serving at scale).
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DJ92&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DJ92&theme=dark&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=1f6feb&currStreakLabel=c9d1d9" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DJ92&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
-</p>
+- Total projects: 33 across AI research, GenAI systems, applied ML, and system design
+- Papers implemented: 22
+- Average test coverage across AI research projects: 85%+
+- Documentation footprint: 12,000+ lines across READMEs, notes, and system designs
+- Scale and latency targets covered: 100M+ DAU ranking systems, sub-100ms P99 serving goals, sub-500ms RAG paths, and low-overhead guardrails
+- Cost and quality trade-offs explored: cost optimization, retrieval improvements, evaluation calibration, and production-oriented system simplification
