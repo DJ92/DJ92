@@ -12,12 +12,14 @@ I focus on staff-level problems where the challenge is not only model quality, b
 
 ## Best Evidence in 2 Minutes
 
+If you're evaluating me for staff AI/ML systems roles, these are the fastest proof points:
+
 - [ML System Design](https://github.com/DJ92/ml-system-design)
-  Staff AI/ML systems proof: ranking, retrieval, recommendation, latency budgets, experimentation, and production trade-offs.
+  End-to-end system design for ranking, retrieval, recommendation, serving, experimentation, and production trade-offs.
 - [AI Research Portfolio](https://github.com/DJ92/ai-research-portfolio)
-  GenAI reliability proof: evaluation, RAG, tool use, safety, interpretability, and transformer foundations across 12 projects.
+  12 projects covering GenAI evaluation, RAG, tool use, safety, interpretability, and transformer foundations with quantitative results.
 - [Technical Writing](https://dj92.github.io/interview-notes)
-  Communication proof: clear writing on evaluation methods, transformer foundations, and production AI trade-offs.
+  Technical judgment and communication on evaluation methods, transformer foundations, and production AI trade-offs.
 
 ## Start Here
 
