@@ -50,72 +50,18 @@ I focus on staff-level problems where the challenge is not only model quality, b
 - [MB-STR on Hugging Face](https://huggingface.co/Djosh1992/mb-str)
   Multi-behavior sequential transformer recommender connecting long-term user behavior modeling with modern recommender system practice.
 
-## How To Read This Profile
+## What These Projects Demonstrate
 
-- Recruiter scan in 30 seconds
-  Open ML System Design for systems scope, AI Research Portfolio for GenAI depth, and Technical Writing for communication quality.
-- Hiring manager scan in 2 minutes
-  Look at News Feed Ranking, LLM Evaluation Framework, Agent Safety and Guardrails, and Production RAG for architecture, trade-offs, and metrics.
-- Interview prep
-  Use each flagship project to practice this sequence: problem, design, trade-offs, metrics, failure modes, and what I would improve in production.
-
-## Interview Paths
-
-### Staff AI/ML Systems
-
-- [News Feed Ranking System Design](https://github.com/DJ92/ml-system-design/blob/main/designs/01-newsfeed-ranking.md)
-  Problem: rank large candidate sets for personalized feeds under relevance, freshness, and latency constraints.
-  Design: two-stage retrieval plus ranking, feature pipelines, serving, feedback loops, and A/B testing.
-  Trade-offs: freshness vs relevance, model complexity vs serving cost, and short-term engagement vs long-term user experience.
-  Metrics to discuss: candidate recall, ranking quality, calibration, latency budgets, and experiment outcomes.
-  What I learned: staff-level design depends as much on interfaces, observability, and iteration loops as on model choice.
+- [ML System Design](https://github.com/DJ92/ml-system-design)
+  Large-scale ranking, retrieval, recommendation, latency budgets, experimentation, and production trade-offs.
 - [LLM Evaluation Framework](https://github.com/DJ92/ai-research-portfolio/tree/main/01-llm-evaluation)
-  Problem: evaluate LLM quality across tasks without relying on anecdotes.
-  Design: automated metrics, LLM-as-judge, human review workflows, unified clients, and cost tracking.
-  Trade-offs: evaluator quality vs evaluation cost, reuse vs task specificity, and judge consistency vs model bias.
-  Metrics to discuss: 87% test coverage and 0.82 judge-human correlation.
-  What I learned: reliable GenAI systems start with measurement scaffolding, not prompt iteration alone.
-
-### GenAI Evaluation and Reliability
-
+  Evaluation-first GenAI engineering with automated metrics, LLM-as-judge calibration, human review workflows, and cost tracking.
 - [Agent Safety & Guardrails](https://github.com/DJ92/ai-research-portfolio/tree/main/05-agent-safety)
-  Problem: reduce prompt injection and unsafe behavior in agentic systems.
-  Design: layered input checks, approval workflows, behavioral constraints, and red-team testing.
-  Trade-offs: safety coverage vs user friction, higher recall vs false positives, and protection vs added latency.
-  Metrics to discuss: 94% precision, 88% recall, and attack reduction from defense-in-depth.
-  What I learned: safety is a systems problem spanning policy, interfaces, monitoring, and fallback paths.
+  Reliability under adversarial conditions, defense-in-depth, rollout thinking, and measurable safety trade-offs.
 - [Production RAG System](https://github.com/DJ92/ai-research-portfolio/tree/main/03-rag-system)
-  Problem: improve answer quality with retrieval under context-window, latency, and cost constraints.
-  Design: chunking experiments, embedding comparisons, hybrid search, reranking, and retrieval metrics.
-  Trade-offs: recall vs latency, chunk granularity vs context quality, and semantic search vs keyword robustness.
-  Metrics to discuss: 85% MRR@10 and gains from hybrid retrieval.
-  What I learned: many RAG failures are retrieval and evaluation failures, not generation failures.
-
-### Search, Retrieval, and Recommendation
-
+  Retrieval quality, chunking and reranking choices, and offline metrics tied to production constraints.
 - [MB-STR on Hugging Face](https://huggingface.co/Djosh1992/mb-str)
-  Problem: model multi-behavior sequential user interactions for recommendation.
-  Design: transformer-based sequence modeling over multiple behavior signals instead of treating all events as equivalent.
-  Trade-offs: richer behavior modeling vs higher complexity, sequence length vs compute cost, and offline gains vs serving practicality.
-  What I learned: recommender quality depends heavily on representing behavior semantics, not just user-item history volume.
-- [Applied ML](https://github.com/DJ92/applied-ml)
-  Problem: build intuition from collaborative filtering through neural and sequential recommenders.
-  Design: matrix factorization, neural collaborative filtering, and GRU-based sequence models.
-  Trade-offs: simple baselines vs richer architectures, offline gains vs inference cost, and static preference vs session intent.
-  What I learned: strong staff-level judgment starts with knowing which baseline to beat and why.
-
-## Practice Prompts
-
-- How would I debug an online metric regression if offline model metrics stayed flat?
-- Which metric mattered most in each project, and why?
-- What would I log, alert on, or monitor after launch?
-- Where would this system fail first in production?
-- What is the simplest version I would ship before scaling complexity?
-
-## Repo README Template
-
-- [Flagship Repo README Template](./FLAGSHIP_REPO_README_TEMPLATE.md)
-  A copy-paste template for turning project repos into stronger hiring and interview artifacts.
+  Sequential recommendation depth and multi-behavior user modeling beyond simple user-item histories.
 
 ## Portfolio Architecture
 
