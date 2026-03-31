@@ -2,156 +2,82 @@
 
 # Dheeraj Joshi
 
-Senior systems and machine learning engineer building retrieval, ranking, recommendation, and GenAI systems.
-
-I focus on staff-level problems where the challenge is not only model quality, but making the full system measurable, debuggable, safe, and fast enough to ship. My work sits at the boundary of problem framing, offline evaluation, serving and observability, experimentation, and the trade-offs between relevance, latency, cost, and reliability.
+Systems and machine learning engineer working across retrieval, ranking, recommendation, and GenAI systems.
 
 - Based in Boston, MA
 - Focus: search, recommendation, retrieval, GenAI evaluation, agent reliability, and experimentation
 - Email: [joshidheeraj1992@gmail.com](mailto:joshidheeraj1992@gmail.com)
 
-## Best Evidence in 2 Minutes
+## Overview
 
-If you're evaluating me for staff AI/ML systems roles, these are the fastest proof points:
+This profile is a working index of my repositories, design documents, experiments, model cards, and technical writing. The portfolio spans ML systems, GenAI implementations, research reproductions, and writing on retrieval, ranking, recommendation, evaluation, agent reliability, and production trade-offs.
 
-- [ML System Design](https://github.com/DJ92/ml-system-design)
-  End-to-end system design for ranking, retrieval, recommendation, serving, experimentation, and production trade-offs.
-- [AI Research Portfolio](https://github.com/DJ92/ai-research-portfolio)
-  12 projects covering GenAI evaluation, RAG, tool use, safety, interpretability, and transformer foundations with quantitative results.
-- [Technical Writing](https://dj92.github.io/interview-notes)
-  Technical judgment and communication on evaluation methods, transformer foundations, and production AI trade-offs.
+The organizing idea is simple: move from foundations and experiments to production-shaped systems and system design.
 
-## Start Here
+## Repository Guide
 
 - [AI Research Portfolio](https://github.com/DJ92/ai-research-portfolio)
-  12 projects covering evaluation, RAG, tool use, safety, interpretability, and transformer foundations.
-- [ML System Design](https://github.com/DJ92/ml-system-design)
-  Production-grade designs for ranking, retrieval, recommendation, and experimentation.
-- [GenAI Applications](https://github.com/DJ92/genai)
-  Practical systems for RAG, agents, guardrails, cost optimization, and multimodal retrieval.
+  This repo contains research reproductions and evaluation-heavy projects covering transformers, alignment, RAG, tool use, safety, interpretability, and model behavior analysis.
+- [GenAI](https://github.com/DJ92/genai)
+  This repo contains implementation-focused GenAI systems including RAG, multimodal retrieval, guardrails, workflow platforms, cost optimization, and fine-tuning labs.
 - [Applied ML](https://github.com/DJ92/applied-ml)
-  Broader ML depth across collaborative filtering, neural recommenders, time series, NLP, and classical ML.
+  This repo contains recommender systems, ranking and retrieval pipelines, serving benchmarks, payment-risk modeling, time series work, and broader applied ML experiments.
+- [ML System Design](https://github.com/DJ92/ml-system-design)
+  This repo contains written system designs for ranking, retrieval, recommendation, online features, experimentation, rollout, and production ML architecture.
+- [Technical Writing](https://dj92.github.io/interview-notes)
+  This site contains long-form notes on transformer foundations, evaluation methods, system design, and practical trade-offs in ML and GenAI systems.
+- [Hugging Face](https://huggingface.co/Djosh1992)
+  This profile contains model cards and public artifacts for experiments such as sequential recommendation and other implementation-focused work.
 
-## What I Bring
-
-- End-to-end ownership across retrieval, ranking, serving, observability, and experimentation.
-- Evaluation-first AI engineering with baselines, failure analysis, human review loops, and explicit cost and latency trade-offs.
-- Ability to turn research ideas into deployable systems with strong interfaces and measurable outcomes.
-- Clear technical writing that makes decisions, assumptions, and trade-offs easy to review.
-
-## Selected Work
+## Selected Projects and Designs
 
 - [News Feed Ranking System Design](https://github.com/DJ92/ml-system-design/blob/main/designs/01-newsfeed-ranking.md)
-  Two-stage retrieval plus ranking at 100M+ DAU scale with sub-100ms P99 goals, feature pipelines, online experimentation, and multi-objective trade-offs.
+  This design covers two-stage retrieval plus ranking for large-scale feeds, with feature pipelines, online experimentation, and sub-100ms P99 serving goals.
+- [Commerce Recommendation Stack](https://github.com/DJ92/ml-system-design/blob/main/designs/02-commerce-recommendation-stack.md)
+  This design connects candidate generation, ranking, online features, ONNX serving, observability, and rollout strategy in one end-to-end commerce ML system.
 - [LLM Evaluation Framework](https://github.com/DJ92/ai-research-portfolio/tree/main/01-llm-evaluation)
-  Automated metrics, LLM-as-judge, human evaluation workflows, and cost tracking. Includes 87% test coverage and 0.82 judge-human correlation.
-- [Agent Safety & Guardrails](https://github.com/DJ92/ai-research-portfolio/tree/main/05-agent-safety)
-  Prompt injection detection, approval workflows, defense-in-depth, and red-team benchmarks. Injection detection reaches 94% precision and 88% recall.
-- [Production RAG System](https://github.com/DJ92/ai-research-portfolio/tree/main/03-rag-system)
-  Chunking comparisons, retrieval metrics, embedding benchmarks, and hybrid search. Best semantic chunking setup reaches 85% MRR@10.
-- [MB-STR on Hugging Face](https://huggingface.co/Djosh1992/mb-str)
-  Multi-behavior sequential transformer recommender connecting long-term user behavior modeling with modern recommender system practice.
+  This project explores automated metrics, LLM-as-judge workflows, human review, and cost tracking, including public results such as 0.82 judge-human correlation.
+- [Real-Time Payment Risk Decisioning](https://github.com/DJ92/applied-ml/tree/main/risk-systems/01-realtime-payment-risk-decisioning)
+  This project explores event-time features, streaming-style scoring, review-queue thresholds, and fallback rules for payment-risk decisioning.
+- [Sovereign Agent Platform](https://github.com/DJ92/genai/tree/main/sovereign-agent-platform)
+  This implementation covers a small-model-first workflow platform with policy gating, ingestion, job orchestration, golden-task evaluation, and a developer CLI.
+- [Fine-Tuning + Retrieval Efficiency Lab](https://github.com/DJ92/genai/tree/main/fine-tuning/01-finetuning-retrieval-efficiency)
+  This lab compares LoRA-style adaptation and compact retrieval indexes at `768`, `384`, and `256` dimensions under latency, memory, and answer-quality trade-offs.
+- [Technical Writing on Evaluation and Transformers](https://dj92.github.io/interview-notes)
+  This writing collection focuses on transformer foundations, evaluation methods, and production trade-offs in modern ML and GenAI systems.
 
-## What These Projects Demonstrate
-
-- [ML System Design](https://github.com/DJ92/ml-system-design)
-  Large-scale ranking, retrieval, recommendation, latency budgets, experimentation, and production trade-offs.
-- [LLM Evaluation Framework](https://github.com/DJ92/ai-research-portfolio/tree/main/01-llm-evaluation)
-  Evaluation-first GenAI engineering with automated metrics, LLM-as-judge calibration, human review workflows, and cost tracking.
-- [Agent Safety & Guardrails](https://github.com/DJ92/ai-research-portfolio/tree/main/05-agent-safety)
-  Reliability under adversarial conditions, defense-in-depth, rollout thinking, and measurable safety trade-offs.
-- [Production RAG System](https://github.com/DJ92/ai-research-portfolio/tree/main/03-rag-system)
-  Retrieval quality, chunking and reranking choices, and offline metrics tied to production constraints.
-- [MB-STR on Hugging Face](https://huggingface.co/Djosh1992/mb-str)
-  Sequential recommendation depth and multi-behavior user modeling beyond simple user-item histories.
-
-## Portfolio Architecture
-
-My work follows a structured progression from foundations to production systems:
+## Portfolio Structure
 
 ```text
-┌─────────────────────────────────────────────────────────────────┐
-│                    FOUNDATIONS (12 projects)                   │
-│  Transformer Architecture • Pre-training • RLHF/DPO • LoRA    │
-│              ai-research-portfolio/09-12                      │
-└────────────────────────┬────────────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────────────┐
-│              RESEARCH & SAFETY (8 projects)                   │
-│  Constitutional AI • CoT Faithfulness • Agent Safety          │
-│  LLM Evaluation • Interpretability • RAG • Tool Use           │
-│              ai-research-portfolio/01-08                      │
-└────────────────────────┬────────────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────────────┐
-│           PRODUCTION GenAI (9 projects + 5 blog posts)        │
-│  Production RAG • Agents • Guardrails • Multimodal RAG        │
-│  Cost Optimization • Long Context Strategies                  │
-│         genai/ + interview-notes/                             │
-└────────────────────────┬────────────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────────────┐
-│          ML SYSTEMS (1 complete + 7 designs, 11 projects)     │
-│  News Feed Ranking • RecSys • Time Series • Classical ML • RL │
-│         ml-system-design/ + applied-ml/                       │
-└─────────────────────────────────────────────────────────────────┘
+Foundations and reproductions  -> ai-research-portfolio
+Research, evaluation, safety   -> ai-research-portfolio + technical writing
+Production-shaped GenAI        -> genai
+Applied ML implementations     -> applied-ml
+System design and architecture -> ml-system-design
+External model cards           -> Hugging Face
 ```
 
-Flow: foundation to research to production to systems demonstrates both depth and breadth.
+The repos move from core model mechanics to applied systems and production trade-offs.
 
-## Papers Implemented
+## Research and Reading Threads
 
-Research papers implemented across the portfolio:
+- Transformers and representation learning:
+  attention, positional methods, encoder/decoder mechanics, and the building blocks behind transformer-based systems.
+- Pretraining, scaling, and efficient tuning:
+  BERT-style MLM, GPT-style CLM, scaling-law ideas, LoRA, and QLoRA-style adaptation work.
+- Alignment and safety:
+  RLHF, DPO, Constitutional AI, chain-of-thought faithfulness, and safety-focused evaluation.
+- Retrieval and agents:
+  RAG, long-context behavior, tool use, ReAct-style workflows, multimodal retrieval, and grounded generation.
+- Recommendation and reinforcement learning:
+  neural collaborative filtering, sequential recommenders, multi-behavior user modeling, PPO, and DQN.
 
-### Transformers and Attention
+The fuller implementation notes for these threads are distributed across the repositories and writing linked above.
 
-- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - Transformer architecture
-- [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864) - RoPE implementation
+## Portfolio at a Glance
 
-### Pre-training and Fine-tuning
-
-- [BERT: Pre-training of Deep Bidirectional Transformers](https://arxiv.org/abs/1810.04805) - MLM objective
-- [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) - GPT-2 style CLM
-- [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) - Chinchilla scaling laws
-
-### Alignment and Safety
-
-- [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) - RLHF implementation ideas
-- [Direct Preference Optimization](https://arxiv.org/abs/2305.18290) - DPO implementation
-- [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) - critique-revision loop
-- [Measuring Faithfulness in Chain-of-Thought Reasoning](https://arxiv.org/abs/2307.13702) - CoT faithfulness analysis
-
-### Parameter-Efficient Fine-tuning
-
-- [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) - LoRA implementation
-- [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) - 4-bit quantization
-
-### Retrieval, RAG, and Agents
-
-- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) - RAG system
-- [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) - long-context analysis
-- [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) - ReAct agents
-- [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) - CoT prompting
-
-### Recommendation Systems and RL
-
-- [Neural Collaborative Filtering](https://arxiv.org/abs/1708.05031) - NCF implementation
-- [Session-based Recommendations with Recurrent Neural Networks](https://arxiv.org/abs/1511.06939) - GRU4Rec implementation
-- [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347) - PPO implementation
-- [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602) - DQN implementation
-
-Total: 22 papers spanning transformers, alignment, efficiency, RAG, agents, recommendation, and RL.
-
-## Portfolio Metrics
-
-Quantitative overview of work across repositories:
-
-- Total projects: 33 across AI research, GenAI systems, applied ML, and system design
-- Papers implemented: 22
-- Average test coverage across AI research projects: 85%+
-- Documentation footprint: 12,000+ lines across READMEs, notes, and system designs
-- Scale and latency targets covered: 100M+ DAU ranking systems, sub-100ms P99 serving goals, sub-500ms RAG paths, and low-overhead guardrails
-- Cost and quality trade-offs explored: cost optimization, retrieval improvements, evaluation calibration, and production-oriented system simplification
+- 33 projects across AI research, GenAI systems, applied ML, and system design.
+- 6 repository families covering research reproductions, GenAI implementations, applied ML labs, design docs, technical writing, and model cards.
+- 22 paper implementations and reading threads spanning transformers, alignment, retrieval, recommendation, and reinforcement learning.
+- System constraints covered include 100M+ DAU ranking designs, sub-100ms P99 serving targets, sub-500ms retrieval paths, and low-overhead guardrail patterns.
+- Documentation includes README-first project writeups, design documents, and long-form technical notes across the portfolio.
