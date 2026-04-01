@@ -7,7 +7,7 @@ One-sentence summary of the project and why it matters.
 This project demonstrates:
 
 - The system, product, or technical judgment it showcases
-- Why it is relevant for staff AI/ML/SDE roles
+- How it fits into the broader body of work
 - What a reader should expect to learn from the repo
 
 ## Problem
@@ -21,6 +21,12 @@ This project demonstrates:
 - Metric 1 with context and baseline
 - Metric 2 with context and baseline
 - Metric 3 with context and baseline
+
+## Evaluation and Regression
+
+- What golden tasks, benchmarks, or datasets did you use?
+- Which pass/fail thresholds matter?
+- How would you catch regressions after the first demo works?
 
 ## Architecture
 
@@ -39,6 +45,13 @@ If helpful, add a simple architecture diagram or request flow.
 
 Keep only the trade-offs that actually matter for this project.
 
+## Observability and Rollout
+
+- Which metrics, traces, or logs would tell you the system is healthy?
+- What would you alert on first?
+- What is the rollout plan, fallback path, or kill switch?
+- Where do cost controls belong?
+
 ## Failure Modes
 
 - What breaks first?
@@ -51,7 +64,7 @@ Keep only the trade-offs that actually matter for this project.
 - Which assumptions still need online validation?
 - What would I postpone on purpose?
 
-## Interview Discussion Guide
+## Project Discussion Guide
 
 ### Problem
 
@@ -103,4 +116,5 @@ project-root/
 
 - Add links to papers, docs, benchmarks, or blog posts when useful.
 - Prefer concrete metrics and decisions over broad claims.
+- Include links to eval artifacts, benchmark results, or rollout notes when they exist.
 - If the project is portfolio or simulated, say so clearly and explain how you would validate it online.
